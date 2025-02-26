@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_9azR4LLFEe-364kvpgoVbw" name="FAMS_ActivityDiagram_MangaingAccount">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_9eQOgLLFEe-364kvpgoVbw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_9cod4LLFEe-364kvpgoVbw" name="FAMS_ActivityDiagram_MangaingAccount" node="__360kLLFEe-364kvpgoVbw _FU724LLGEe-364kvpgoVbw _LFkYwLLGEe-364kvpgoVbw _WglDgLLGEe-364kvpgoVbw _aJTdsLLGEe-364kvpgoVbw _eGaMcLLGEe-364kvpgoVbw _7-44ELLGEe-364kvpgoVbw _BKYskLLHEe-364kvpgoVbw _DUS_YLLHEe-364kvpgoVbw _UMK7cLLHEe-364kvpgoVbw _ZzGuwLLHEe-364kvpgoVbw _ccLCwLLHEe-364kvpgoVbw _gPwpILLHEe-364kvpgoVbw _jcyl0LLHEe-364kvpgoVbw _qlyBwLLHEe-364kvpgoVbw _stFsgLLHEe-364kvpgoVbw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ntolYLLGEe-364kvpgoVbw" target="_FU724LLGEe-364kvpgoVbw" source="__360kLLFEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oXk6QLLGEe-364kvpgoVbw" name="[ if DeleteAccount == true ]" target="_LFkYwLLGEe-364kvpgoVbw" source="_FU724LLGEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0y5ygLLGEe-364kvpgoVbw" target="_WglDgLLGEe-364kvpgoVbw" source="_LFkYwLLGEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_15Ae8LLGEe-364kvpgoVbw" target="_eGaMcLLGEe-364kvpgoVbw" source="_WglDgLLGEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_25Pz8LLGEe-364kvpgoVbw" target="_aJTdsLLGEe-364kvpgoVbw" source="_eGaMcLLGEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FX3ZoLLHEe-364kvpgoVbw" name="[if valid == true]" target="_7-44ELLGEe-364kvpgoVbw" source="_aJTdsLLGEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_H-lkQLLHEe-364kvpgoVbw" name="[else if valid==false]" target="_BKYskLLHEe-364kvpgoVbw" source="_aJTdsLLGEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_L7I5YLLHEe-364kvpgoVbw" target="_BKYskLLHEe-364kvpgoVbw" source="_7-44ELLGEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NJkbYLLHEe-364kvpgoVbw" target="_DUS_YLLHEe-364kvpgoVbw" source="_BKYskLLHEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0U058LLHEe-364kvpgoVbw" name="[else if UpdateAccount == true]" target="_UMK7cLLHEe-364kvpgoVbw" source="_FU724LLGEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3yZNALLHEe-364kvpgoVbw" target="_ZzGuwLLHEe-364kvpgoVbw" source="_UMK7cLLHEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5_9QwLLHEe-364kvpgoVbw" target="_ccLCwLLHEe-364kvpgoVbw" source="_ZzGuwLLHEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8Z-cILLHEe-364kvpgoVbw" name="Check For VAlidation" target="_gPwpILLHEe-364kvpgoVbw" source="_ccLCwLLHEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__V9FELLHEe-364kvpgoVbw" name="[if credentials == valid]" target="_jcyl0LLHEe-364kvpgoVbw" source="_gPwpILLHEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FkY9QLLIEe-364kvpgoVbw" name="[else] Invalid Credentials. ReEnter Data" target="_UMK7cLLHEe-364kvpgoVbw" source="_gPwpILLHEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NzshALLIEe-364kvpgoVbw" target="_qlyBwLLHEe-364kvpgoVbw" source="_jcyl0LLHEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RsJZQLLIEe-364kvpgoVbw" name="[if fields filled correctly]" target="_stFsgLLHEe-364kvpgoVbw" source="_qlyBwLLHEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Uq1X8LLIEe-364kvpgoVbw" name="[else] ReEnter Updated Data" target="_jcyl0LLHEe-364kvpgoVbw" source="_qlyBwLLHEe-364kvpgoVbw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ZcrWULLIEe-364kvpgoVbw" target="_BKYskLLHEe-364kvpgoVbw" source="_stFsgLLHEe-364kvpgoVbw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="__360kLLFEe-364kvpgoVbw" name="START" outgoing="_ntolYLLGEe-364kvpgoVbw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_FU724LLGEe-364kvpgoVbw" name="DeleteAccount/UpdateAccount?" incoming="_ntolYLLGEe-364kvpgoVbw" outgoing="_oXk6QLLGEe-364kvpgoVbw _0U058LLHEe-364kvpgoVbw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LFkYwLLGEe-364kvpgoVbw" name="EnterYourDataForConfirmation" incoming="_oXk6QLLGEe-364kvpgoVbw" outgoing="_0y5ygLLGEe-364kvpgoVbw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WglDgLLGEe-364kvpgoVbw" name="Enter Credentials" incoming="_0y5ygLLGEe-364kvpgoVbw" outgoing="_15Ae8LLGEe-364kvpgoVbw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_aJTdsLLGEe-364kvpgoVbw" name="Credentials Valid?" incoming="_25Pz8LLGEe-364kvpgoVbw" outgoing="_FX3ZoLLHEe-364kvpgoVbw _H-lkQLLHEe-364kvpgoVbw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_eGaMcLLGEe-364kvpgoVbw" name="ValidateData&amp;Credentials" incoming="_15Ae8LLGEe-364kvpgoVbw" outgoing="_25Pz8LLGEe-364kvpgoVbw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7-44ELLGEe-364kvpgoVbw" name="DeleteAccountFromDB" incoming="_FX3ZoLLHEe-364kvpgoVbw" outgoing="_L7I5YLLHEe-364kvpgoVbw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_BKYskLLHEe-364kvpgoVbw" name="MergingToFinal" incoming="_H-lkQLLHEe-364kvpgoVbw _L7I5YLLHEe-364kvpgoVbw _ZcrWULLIEe-364kvpgoVbw" outgoing="_NJkbYLLHEe-364kvpgoVbw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_DUS_YLLHEe-364kvpgoVbw" name="Final" incoming="_NJkbYLLHEe-364kvpgoVbw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_UMK7cLLHEe-364kvpgoVbw" name="Enter Your Old Data For Confirmation" incoming="_0U058LLHEe-364kvpgoVbw _FkY9QLLIEe-364kvpgoVbw" outgoing="_3yZNALLHEe-364kvpgoVbw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZzGuwLLHEe-364kvpgoVbw" name="Enter Credentials" incoming="_3yZNALLHEe-364kvpgoVbw" outgoing="_5_9QwLLHEe-364kvpgoVbw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ccLCwLLHEe-364kvpgoVbw" name="ValidateData$Credentials" incoming="_5_9QwLLHEe-364kvpgoVbw" outgoing="_8Z-cILLHEe-364kvpgoVbw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_gPwpILLHEe-364kvpgoVbw" name="Credentials Valid?" incoming="_8Z-cILLHEe-364kvpgoVbw" outgoing="__V9FELLHEe-364kvpgoVbw _FkY9QLLIEe-364kvpgoVbw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_jcyl0LLHEe-364kvpgoVbw" name="Enter New Data for updation" incoming="__V9FELLHEe-364kvpgoVbw _Uq1X8LLIEe-364kvpgoVbw" outgoing="_NzshALLIEe-364kvpgoVbw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_qlyBwLLHEe-364kvpgoVbw" name="All Fields filled correctly?" incoming="_NzshALLIEe-364kvpgoVbw" outgoing="_RsJZQLLIEe-364kvpgoVbw _Uq1X8LLIEe-364kvpgoVbw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_stFsgLLHEe-364kvpgoVbw" name="UpdateProfile" incoming="_RsJZQLLIEe-364kvpgoVbw" outgoing="_ZcrWULLIEe-364kvpgoVbw"/>
+  </packagedElement>
+</uml:Model>

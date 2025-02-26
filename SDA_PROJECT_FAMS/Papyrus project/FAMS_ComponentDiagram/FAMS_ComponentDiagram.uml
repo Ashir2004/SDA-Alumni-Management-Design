@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_8VcTELMXEe-uSu8Aq8p2Vg" name="FAMS_ComponentDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_8YCUELMXEe-uSu8Aq8p2Vg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_HdMqoLMYEe-uSu8Aq8p2Vg" name="Frontend">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_HdMqobMYEe-uSu8Aq8p2Vg" client="_HdMqoLMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_FMzx4LJTEe-czuQRG125Gg"/>
+      <contract xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_FMzx4LJTEe-czuQRG125Gg"/>
+    </interfaceRealization>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_HdMqorMYEe-uSu8Aq8p2Vg" client="_HdMqoLMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#__m4rMLJSEe-czuQRG125Gg"/>
+      <contract xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#__m4rMLJSEe-czuQRG125Gg"/>
+    </interfaceRealization>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_HdMqo7MYEe-uSu8Aq8p2Vg" client="_HdMqoLMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_M3Q8ILJTEe-czuQRG125Gg"/>
+      <contract xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_M3Q8ILJTEe-czuQRG125Gg"/>
+    </interfaceRealization>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_HdMqpLMYEe-uSu8Aq8p2Vg" client="_HdMqoLMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_QopjELJTEe-czuQRG125Gg"/>
+      <contract xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_QopjELJTEe-czuQRG125Gg"/>
+    </interfaceRealization>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_HdMqpbMYEe-uSu8Aq8p2Vg" client="_HdMqoLMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_dth5MLJUEe-czuQRG125Gg"/>
+      <contract xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_dth5MLJUEe-czuQRG125Gg"/>
+    </interfaceRealization>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_utFfoLMaEe-uSu8Aq8p2Vg" client="_HdMqoLMYEe-uSu8Aq8p2Vg" supplier="_Jap10LMYEe-uSu8Aq8p2Vg" contract="_Jap10LMYEe-uSu8Aq8p2Vg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_x_238LMaEe-uSu8Aq8p2Vg" client="_HdMqoLMYEe-uSu8Aq8p2Vg" supplier="_yXnikLMYEe-uSu8Aq8p2Vg" contract="_yXnikLMYEe-uSu8Aq8p2Vg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_y6vL0LMaEe-uSu8Aq8p2Vg" client="_HdMqoLMYEe-uSu8Aq8p2Vg" supplier="_33BKgLMYEe-uSu8Aq8p2Vg" contract="_33BKgLMYEe-uSu8Aq8p2Vg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_zjcxoLMaEe-uSu8Aq8p2Vg" client="_HdMqoLMYEe-uSu8Aq8p2Vg" supplier="_AqcH8LMZEe-uSu8Aq8p2Vg" contract="_AqcH8LMZEe-uSu8Aq8p2Vg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_5kj_gLMaEe-uSu8Aq8p2Vg" client="_HdMqoLMYEe-uSu8Aq8p2Vg" supplier="_MBpQwLMZEe-uSu8Aq8p2Vg" contract="_MBpQwLMZEe-uSu8Aq8p2Vg"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_HdMqprMYEe-uSu8Aq8p2Vg" name="Authentication Module"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_HdMqp7MYEe-uSu8Aq8p2Vg" name="User Dashboard"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_HdMqqLMYEe-uSu8Aq8p2Vg" name="Admin Dashboard"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_HdMqqbMYEe-uSu8Aq8p2Vg" name="Context Provider"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_SvtgsLMYEe-uSu8Aq8p2Vg" name="Authentication Module"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_UqUzQLMYEe-uSu8Aq8p2Vg" name="Context Provider"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_UqUzQbMYEe-uSu8Aq8p2Vg" name="User Dashboard"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_UqVaULMYEe-uSu8Aq8p2Vg" name="Admin Dashboard"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Jap10LMYEe-uSu8Aq8p2Vg" name="Post Service"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_owR04LMYEe-uSu8Aq8p2Vg" name="Backend">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_owSb8LMYEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_l9VBobJTEe-czuQRG125Gg"/>
+      <contract xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_l9VBobJTEe-czuQRG125Gg"/>
+    </interfaceRealization>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_owSb8bMYEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_l9UakbJTEe-czuQRG125Gg"/>
+      <contract xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_l9UakbJTEe-czuQRG125Gg"/>
+    </interfaceRealization>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_owSb8rMYEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_l9Uak7JTEe-czuQRG125Gg"/>
+      <contract xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_l9Uak7JTEe-czuQRG125Gg"/>
+    </interfaceRealization>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_owSb87MYEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_l9UakrJTEe-czuQRG125Gg"/>
+      <contract xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_l9UakrJTEe-czuQRG125Gg"/>
+    </interfaceRealization>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_owSb9LMYEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_eZ8TQLJUEe-czuQRG125Gg"/>
+      <contract xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_eZ8TQLJUEe-czuQRG125Gg"/>
+    </interfaceRealization>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_0vef4LMaEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg" supplier="_fWT_YLMZEe-uSu8Aq8p2Vg" contract="_fWT_YLMZEe-uSu8Aq8p2Vg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_1YBGkLMaEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg" supplier="_n8WoILMZEe-uSu8Aq8p2Vg" contract="_n8WoILMZEe-uSu8Aq8p2Vg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_2RwyALMaEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg" supplier="_vkA9ELMZEe-uSu8Aq8p2Vg" contract="_vkA9ELMZEe-uSu8Aq8p2Vg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_290mwLMaEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg" supplier="_90yUALMZEe-uSu8Aq8p2Vg" contract="_90yUALMZEe-uSu8Aq8p2Vg"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_3rng4LMaEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg" supplier="_IGnwMLMaEe-uSu8Aq8p2Vg" contract="_IGnwMLMaEe-uSu8Aq8p2Vg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_owSb9bMYEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_KNh5wLJTEe-czuQRG125Gg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_owSb9rMYEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_EEuvgLJTEe-czuQRG125Gg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_owSb97MYEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_PHkK0LJTEe-czuQRG125Gg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_owSb-LMYEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_Sut3sLJTEe-czuQRG125Gg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_owSb-bMYEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_eRuycLJUEe-czuQRG125Gg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_owSb-rMYEe-uSu8Aq8p2Vg" name="UserController"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_owSb-7MYEe-uSu8Aq8p2Vg" name="EventController"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_owSb_LMYEe-uSu8Aq8p2Vg" name="Blog and News Controller"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_owSb_bMYEe-uSu8Aq8p2Vg" name="Project Controller"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_hTNUcLMaEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg" supplier="_uiOlYLMYEe-uSu8Aq8p2Vg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_h2Ew8LMaEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg" supplier="_0VRiELMYEe-uSu8Aq8p2Vg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_iizUELMaEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg" supplier="_4NxdoLMYEe-uSu8Aq8p2Vg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_jGBV4LMaEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg" supplier="_CZ7voLMZEe-uSu8Aq8p2Vg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_jtlFILMaEe-uSu8Aq8p2Vg" client="_owR04LMYEe-uSu8Aq8p2Vg" supplier="_NOgFcLMZEe-uSu8Aq8p2Vg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_uiOlYLMYEe-uSu8Aq8p2Vg" name="Post Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_yXnikLMYEe-uSu8Aq8p2Vg" name="Event Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_0VRiELMYEe-uSu8Aq8p2Vg" name="Event Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_33BKgLMYEe-uSu8Aq8p2Vg" name="Project Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_4NxdoLMYEe-uSu8Aq8p2Vg" name="Project Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_AqcH8LMZEe-uSu8Aq8p2Vg" name="Blog and News Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_CZ7voLMZEe-uSu8Aq8p2Vg" name="Blog and News Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_MBpQwLMZEe-uSu8Aq8p2Vg" name="UserInfoService"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_NOgFcLMZEe-uSu8Aq8p2Vg" name="UserInfoService"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_R4LmULMZEe-uSu8Aq8p2Vg" name="UserController"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_TbaToLMZEe-uSu8Aq8p2Vg" name="EventController"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_VL6A4LMZEe-uSu8Aq8p2Vg" name="Blog and News Controller"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_XVs-8LMZEe-uSu8Aq8p2Vg" name="Project Controller"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_fWT_YLMZEe-uSu8Aq8p2Vg" name="Post Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_jgYMELMZEe-uSu8Aq8p2Vg" name="Post Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_n8WoILMZEe-uSu8Aq8p2Vg" name="EventInfoService"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_raFTQLMZEe-uSu8Aq8p2Vg" name="EventInfoService"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_vkA9ELMZEe-uSu8Aq8p2Vg" name="Blog and News Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_5B_6cLMZEe-uSu8Aq8p2Vg" name="Blog and News Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_90yUALMZEe-uSu8Aq8p2Vg" name="Project Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_C5ztELMaEe-uSu8Aq8p2Vg" name="Project Service"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_IGnwMLMaEe-uSu8Aq8p2Vg" name="UserInfoService"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_KZfKsLMaEe-uSu8Aq8p2Vg" name="UserInfoService"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_SI0N4LMaEe-uSu8Aq8p2Vg" name="Database">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_SI0N4bMaEe-uSu8Aq8p2Vg" client="_SI0N4LMaEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_l9VBo7JTEe-czuQRG125Gg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_SI0N4rMaEe-uSu8Aq8p2Vg" client="_SI0N4LMaEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_l9VBoLJTEe-czuQRG125Gg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_SI0N47MaEe-uSu8Aq8p2Vg" client="_SI0N4LMaEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_l9VBorJTEe-czuQRG125Gg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_SI0N5LMaEe-uSu8Aq8p2Vg" client="_SI0N4LMaEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_l9UakLJTEe-czuQRG125Gg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_SI0N5bMaEe-uSu8Aq8p2Vg" client="_SI0N4LMaEe-uSu8Aq8p2Vg">
+      <supplier xmi:type="uml:Interface" href="file:/C:/Users/Tesla%20Laptops/Desktop/SDA-Project/Component/component.uml#_ehdQgLJUEe-czuQRG125Gg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_mRBSQLMaEe-uSu8Aq8p2Vg" client="_SI0N4LMaEe-uSu8Aq8p2Vg" supplier="_jgYMELMZEe-uSu8Aq8p2Vg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_nJUzQLMaEe-uSu8Aq8p2Vg" client="_SI0N4LMaEe-uSu8Aq8p2Vg" supplier="_raFTQLMZEe-uSu8Aq8p2Vg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_n5IfkLMaEe-uSu8Aq8p2Vg" client="_SI0N4LMaEe-uSu8Aq8p2Vg" supplier="_5B_6cLMZEe-uSu8Aq8p2Vg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_omi_MLMaEe-uSu8Aq8p2Vg" client="_SI0N4LMaEe-uSu8Aq8p2Vg" supplier="_C5ztELMaEe-uSu8Aq8p2Vg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_pTzGwLMaEe-uSu8Aq8p2Vg" client="_SI0N4LMaEe-uSu8Aq8p2Vg" supplier="_KZfKsLMaEe-uSu8Aq8p2Vg"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_DSv9sLK7Ee-xa9ectZ5pQA" name="FAMS_ActivityDiagram_Login-Signup">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_DaBqYLK7Ee-xa9ectZ5pQA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_DUiGYLK7Ee-xa9ectZ5pQA" name="FAMS_Login-Signup" node="_bdQZ4LK7Ee-xa9ectZ5pQA _cgDToLK7Ee-xa9ectZ5pQA _iKnCsLK7Ee-xa9ectZ5pQA _prQJoLK7Ee-xa9ectZ5pQA _6pnIMLK7Ee-xa9ectZ5pQA _BUgS4LK8Ee-xa9ectZ5pQA _PlWiULK8Ee-xa9ectZ5pQA _a8pKsLK8Ee-xa9ectZ5pQA _pCbZoLK8Ee-xa9ectZ5pQA _1kYeULK8Ee-xa9ectZ5pQA _BPZ7ALK9Ee-xa9ectZ5pQA _IhHOELK9Ee-xa9ectZ5pQA _XORmELK9Ee-xa9ectZ5pQA _kk1-kLK9Ee-xa9ectZ5pQA" group="_U9qgQLK7Ee-xa9ectZ5pQA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tUdsALK7Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_iKnCsLK7Ee-xa9ectZ5pQA" source="_bdQZ4LK7Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ua-oILK7Ee-xa9ectZ5pQA" name="if Signup" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_cgDToLK7Ee-xa9ectZ5pQA" source="_iKnCsLK7Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xdy44LK7Ee-xa9ectZ5pQA" name="If Signup" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_prQJoLK7Ee-xa9ectZ5pQA" source="_iKnCsLK7Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_95sY4LK7Ee-xa9ectZ5pQA" name="If Credentials invalid" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_cgDToLK7Ee-xa9ectZ5pQA" source="_6pnIMLK7Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GVjx8LK8Ee-xa9ectZ5pQA" name="If Credentials Valid" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_BUgS4LK8Ee-xa9ectZ5pQA" source="_6pnIMLK7Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VFAo8LK8Ee-xa9ectZ5pQA" name="If Registered Found" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_a8pKsLK8Ee-xa9ectZ5pQA" source="_PlWiULK8Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gIchMLK8Ee-xa9ectZ5pQA" name="Take to Login Page" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_prQJoLK7Ee-xa9ectZ5pQA" source="_a8pKsLK8Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lHBUALK8Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_PlWiULK8Ee-xa9ectZ5pQA" source="_BUgS4LK8Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tEzp8LK8Ee-xa9ectZ5pQA" name="NotRegisteredAlready" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_pCbZoLK8Ee-xa9ectZ5pQA" source="_PlWiULK8Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4lVG0LK8Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_1kYeULK8Ee-xa9ectZ5pQA" source="_cgDToLK7Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5S27MLK8Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_6pnIMLK7Ee-xa9ectZ5pQA" source="_1kYeULK8Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GhnbgLK9Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_BPZ7ALK9Ee-xa9ectZ5pQA" source="_prQJoLK7Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PKShgLK9Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_IhHOELK9Ee-xa9ectZ5pQA" source="_BPZ7ALK9Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_R5boULK9Ee-xa9ectZ5pQA" name="CredentialInvalidReEnter" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_prQJoLK7Ee-xa9ectZ5pQA" source="_IhHOELK9Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dFw94LK9Ee-xa9ectZ5pQA" name="Credentials_Valid" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_XORmELK9Ee-xa9ectZ5pQA" source="_IhHOELK9Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lvUNoLK9Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_kk1-kLK9Ee-xa9ectZ5pQA" source="_pCbZoLK8Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mQeZ8LK9Ee-xa9ectZ5pQA" name="Activity_End" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA" target="_kk1-kLK9Ee-xa9ectZ5pQA" source="_XORmELK9Ee-xa9ectZ5pQA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_U9qgQLK7Ee-xa9ectZ5pQA" name="User" node="_bdQZ4LK7Ee-xa9ectZ5pQA _cgDToLK7Ee-xa9ectZ5pQA _iKnCsLK7Ee-xa9ectZ5pQA _prQJoLK7Ee-xa9ectZ5pQA _6pnIMLK7Ee-xa9ectZ5pQA _BUgS4LK8Ee-xa9ectZ5pQA _PlWiULK8Ee-xa9ectZ5pQA _a8pKsLK8Ee-xa9ectZ5pQA _pCbZoLK8Ee-xa9ectZ5pQA _1kYeULK8Ee-xa9ectZ5pQA _BPZ7ALK9Ee-xa9ectZ5pQA _IhHOELK9Ee-xa9ectZ5pQA _XORmELK9Ee-xa9ectZ5pQA _kk1-kLK9Ee-xa9ectZ5pQA" edge="_tUdsALK7Ee-xa9ectZ5pQA _ua-oILK7Ee-xa9ectZ5pQA _xdy44LK7Ee-xa9ectZ5pQA _95sY4LK7Ee-xa9ectZ5pQA _GVjx8LK8Ee-xa9ectZ5pQA _VFAo8LK8Ee-xa9ectZ5pQA _gIchMLK8Ee-xa9ectZ5pQA _lHBUALK8Ee-xa9ectZ5pQA _tEzp8LK8Ee-xa9ectZ5pQA _4lVG0LK8Ee-xa9ectZ5pQA _5S27MLK8Ee-xa9ectZ5pQA _GhnbgLK9Ee-xa9ectZ5pQA _PKShgLK9Ee-xa9ectZ5pQA _R5boULK9Ee-xa9ectZ5pQA _dFw94LK9Ee-xa9ectZ5pQA _lvUNoLK9Ee-xa9ectZ5pQA _mQeZ8LK9Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_bdQZ4LK7Ee-xa9ectZ5pQA" name="InitialNode2" outgoing="_tUdsALK7Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_cgDToLK7Ee-xa9ectZ5pQA" name="Enter Credentials" incoming="_ua-oILK7Ee-xa9ectZ5pQA _95sY4LK7Ee-xa9ectZ5pQA" outgoing="_4lVG0LK8Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_iKnCsLK7Ee-xa9ectZ5pQA" name="login/Signup ?" incoming="_tUdsALK7Ee-xa9ectZ5pQA" outgoing="_ua-oILK7Ee-xa9ectZ5pQA _xdy44LK7Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_prQJoLK7Ee-xa9ectZ5pQA" name="Enter Credentials" incoming="_xdy44LK7Ee-xa9ectZ5pQA _gIchMLK8Ee-xa9ectZ5pQA _R5boULK9Ee-xa9ectZ5pQA" outgoing="_GhnbgLK9Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_6pnIMLK7Ee-xa9ectZ5pQA" name="CredentialsValidation" incoming="_5S27MLK8Ee-xa9ectZ5pQA" outgoing="_95sY4LK7Ee-xa9ectZ5pQA _GVjx8LK8Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_BUgS4LK8Ee-xa9ectZ5pQA" name="CheckForDatabase_If_RegisteredAlready" incoming="_GVjx8LK8Ee-xa9ectZ5pQA" outgoing="_lHBUALK8Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_PlWiULK8Ee-xa9ectZ5pQA" name="Registered Already?" incoming="_lHBUALK8Ee-xa9ectZ5pQA" outgoing="_VFAo8LK8Ee-xa9ectZ5pQA _tEzp8LK8Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_a8pKsLK8Ee-xa9ectZ5pQA" name="Prompt Message" incoming="_VFAo8LK8Ee-xa9ectZ5pQA" outgoing="_gIchMLK8Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_pCbZoLK8Ee-xa9ectZ5pQA" name="RegisterUser" incoming="_tEzp8LK8Ee-xa9ectZ5pQA" outgoing="_lvUNoLK9Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1kYeULK8Ee-xa9ectZ5pQA" name="ValidateCredentials" incoming="_4lVG0LK8Ee-xa9ectZ5pQA" outgoing="_5S27MLK8Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_BPZ7ALK9Ee-xa9ectZ5pQA" name="ValidateCredentialsByInteractingDB" incoming="_GhnbgLK9Ee-xa9ectZ5pQA" outgoing="_PKShgLK9Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_IhHOELK9Ee-xa9ectZ5pQA" name="CredentialsValid?" incoming="_PKShgLK9Ee-xa9ectZ5pQA" outgoing="_R5boULK9Ee-xa9ectZ5pQA _dFw94LK9Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_XORmELK9Ee-xa9ectZ5pQA" name="LoginToSystem" incoming="_dFw94LK9Ee-xa9ectZ5pQA" outgoing="_mQeZ8LK9Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_kk1-kLK9Ee-xa9ectZ5pQA" name="ActivityFinalNode30" incoming="_lvUNoLK9Ee-xa9ectZ5pQA _mQeZ8LK9Ee-xa9ectZ5pQA" inPartition="_U9qgQLK7Ee-xa9ectZ5pQA"/>
+  </packagedElement>
+</uml:Model>

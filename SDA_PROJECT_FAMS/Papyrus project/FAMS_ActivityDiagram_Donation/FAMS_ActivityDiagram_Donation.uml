@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fMHBgLLMEe-Ik6wV8sPyRQ" name="FAMS_ActivityDiagram_Donation">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_fOEJULLMEe-Ik6wV8sPyRQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_fNCOkLLMEe-Ik6wV8sPyRQ" name="FAMS_ActivityDiagram_Donation" node="_iNiyMLLMEe-Ik6wV8sPyRQ _lOCHsLLMEe-Ik6wV8sPyRQ _zueSULLMEe-Ik6wV8sPyRQ _2C3W0LLMEe-Ik6wV8sPyRQ _9ORNkLLMEe-Ik6wV8sPyRQ _A7KWELLNEe-Ik6wV8sPyRQ _ddr7YLLNEe-Ik6wV8sPyRQ" group="_hVaQULLMEe-Ik6wV8sPyRQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_EBP9QLLNEe-Ik6wV8sPyRQ" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ" target="_lOCHsLLMEe-Ik6wV8sPyRQ" source="_iNiyMLLMEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_FiyBcLLNEe-Ik6wV8sPyRQ" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ" target="_zueSULLMEe-Ik6wV8sPyRQ" source="_lOCHsLLMEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Goz1YLLNEe-Ik6wV8sPyRQ" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ" target="_2C3W0LLMEe-Ik6wV8sPyRQ" source="_zueSULLMEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_IDmYYLLNEe-Ik6wV8sPyRQ" name="[if data &amp; Amount == valid]" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ" target="_9ORNkLLMEe-Ik6wV8sPyRQ" source="_2C3W0LLMEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MU5OcLLNEe-Ik6wV8sPyRQ" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ" target="_A7KWELLNEe-Ik6wV8sPyRQ" source="_9ORNkLLMEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_P-w4ILLNEe-Ik6wV8sPyRQ" name="[else] Please ReEnter the Data" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ" target="_lOCHsLLMEe-Ik6wV8sPyRQ" source="_2C3W0LLMEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eVIgwLLNEe-Ik6wV8sPyRQ" name="End" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ" target="_ddr7YLLNEe-Ik6wV8sPyRQ" source="_A7KWELLNEe-Ik6wV8sPyRQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_hVaQULLMEe-Ik6wV8sPyRQ" name="User" node="_iNiyMLLMEe-Ik6wV8sPyRQ _lOCHsLLMEe-Ik6wV8sPyRQ _zueSULLMEe-Ik6wV8sPyRQ _2C3W0LLMEe-Ik6wV8sPyRQ _9ORNkLLMEe-Ik6wV8sPyRQ _A7KWELLNEe-Ik6wV8sPyRQ _ddr7YLLNEe-Ik6wV8sPyRQ" edge="_EBP9QLLNEe-Ik6wV8sPyRQ _FiyBcLLNEe-Ik6wV8sPyRQ _Goz1YLLNEe-Ik6wV8sPyRQ _IDmYYLLNEe-Ik6wV8sPyRQ _MU5OcLLNEe-Ik6wV8sPyRQ _P-w4ILLNEe-Ik6wV8sPyRQ _eVIgwLLNEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_iNiyMLLMEe-Ik6wV8sPyRQ" name="START" outgoing="_EBP9QLLNEe-Ik6wV8sPyRQ" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_lOCHsLLMEe-Ik6wV8sPyRQ" name="EnterAllTheReqDataForDonation" incoming="_EBP9QLLNEe-Ik6wV8sPyRQ _P-w4ILLNEe-Ik6wV8sPyRQ" outgoing="_FiyBcLLNEe-Ik6wV8sPyRQ" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_zueSULLMEe-Ik6wV8sPyRQ" name="Enter Donation Amount" incoming="_FiyBcLLNEe-Ik6wV8sPyRQ" outgoing="_Goz1YLLNEe-Ik6wV8sPyRQ" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_2C3W0LLMEe-Ik6wV8sPyRQ" name="Check For Data and Donation Amount" incoming="_Goz1YLLNEe-Ik6wV8sPyRQ" outgoing="_IDmYYLLNEe-Ik6wV8sPyRQ _P-w4ILLNEe-Ik6wV8sPyRQ" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_9ORNkLLMEe-Ik6wV8sPyRQ" name="MakeDonation" incoming="_IDmYYLLNEe-Ik6wV8sPyRQ" outgoing="_MU5OcLLNEe-Ik6wV8sPyRQ" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_A7KWELLNEe-Ik6wV8sPyRQ" name="SaveRecordInDB" incoming="_MU5OcLLNEe-Ik6wV8sPyRQ" outgoing="_eVIgwLLNEe-Ik6wV8sPyRQ" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_ddr7YLLNEe-Ik6wV8sPyRQ" name="ActivityFinalNode14" incoming="_eVIgwLLNEe-Ik6wV8sPyRQ" inPartition="_hVaQULLMEe-Ik6wV8sPyRQ"/>
+  </packagedElement>
+</uml:Model>

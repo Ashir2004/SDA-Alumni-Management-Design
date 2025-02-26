@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_z9w2ELLNEe-Ik6wV8sPyRQ" name="FAMS_ActivityDiagram_Admin_DeleteUser">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_z-1NELLNEe-Ik6wV8sPyRQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_z95Y8LLNEe-Ik6wV8sPyRQ" name="FAMS_ActivityDiagram_Admin_DeleteUser" node="_OkbysLLOEe-Ik6wV8sPyRQ _nSfA0LLOEe-Ik6wV8sPyRQ _uLh8QLLOEe-Ik6wV8sPyRQ _yEzT4LLOEe-Ik6wV8sPyRQ _71a5YLLOEe-Ik6wV8sPyRQ _HG5NoLLPEe-Ik6wV8sPyRQ _PfIq8LLPEe-Ik6wV8sPyRQ _WWlD4LLPEe-Ik6wV8sPyRQ" group="_MsOT4LLOEe-Ik6wV8sPyRQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4kkMoLLOEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ" target="_nSfA0LLOEe-Ik6wV8sPyRQ" source="_OkbysLLOEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5REtULLOEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ" target="_uLh8QLLOEe-Ik6wV8sPyRQ" source="_nSfA0LLOEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6NM-YLLOEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ" target="_yEzT4LLOEe-Ik6wV8sPyRQ" source="_uLh8QLLOEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KV78gLLPEe-Ik6wV8sPyRQ" name="[if delete == true]" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ" target="_71a5YLLOEe-Ik6wV8sPyRQ" source="_yEzT4LLOEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NwA2sLLPEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ" target="_HG5NoLLPEe-Ik6wV8sPyRQ" source="_71a5YLLOEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_R3wIILLPEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ" target="_PfIq8LLPEe-Ik6wV8sPyRQ" source="_HG5NoLLPEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SlqXALLPEe-Ik6wV8sPyRQ" name="[else if delete == flase]" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ" target="_PfIq8LLPEe-Ik6wV8sPyRQ" source="_yEzT4LLOEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XW2OELLPEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ" target="_WWlD4LLPEe-Ik6wV8sPyRQ" source="_PfIq8LLPEe-Ik6wV8sPyRQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_MsOT4LLOEe-Ik6wV8sPyRQ" name="Admin" node="_OkbysLLOEe-Ik6wV8sPyRQ _nSfA0LLOEe-Ik6wV8sPyRQ _uLh8QLLOEe-Ik6wV8sPyRQ _yEzT4LLOEe-Ik6wV8sPyRQ _71a5YLLOEe-Ik6wV8sPyRQ _HG5NoLLPEe-Ik6wV8sPyRQ _PfIq8LLPEe-Ik6wV8sPyRQ _WWlD4LLPEe-Ik6wV8sPyRQ" edge="_4kkMoLLOEe-Ik6wV8sPyRQ _5REtULLOEe-Ik6wV8sPyRQ _6NM-YLLOEe-Ik6wV8sPyRQ _KV78gLLPEe-Ik6wV8sPyRQ _NwA2sLLPEe-Ik6wV8sPyRQ _R3wIILLPEe-Ik6wV8sPyRQ _SlqXALLPEe-Ik6wV8sPyRQ _XW2OELLPEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_OkbysLLOEe-Ik6wV8sPyRQ" name="InitialNode2" outgoing="_4kkMoLLOEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_nSfA0LLOEe-Ik6wV8sPyRQ" name="Delete User Prompt" incoming="_4kkMoLLOEe-Ik6wV8sPyRQ" outgoing="_5REtULLOEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_uLh8QLLOEe-Ik6wV8sPyRQ" name="Confirmation message" incoming="_5REtULLOEe-Ik6wV8sPyRQ" outgoing="_6NM-YLLOEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_yEzT4LLOEe-Ik6wV8sPyRQ" name="Delete?" incoming="_6NM-YLLOEe-Ik6wV8sPyRQ" outgoing="_KV78gLLPEe-Ik6wV8sPyRQ _SlqXALLPEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_71a5YLLOEe-Ik6wV8sPyRQ" name="Delete User Remove From Database" incoming="_KV78gLLPEe-Ik6wV8sPyRQ" outgoing="_NwA2sLLPEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HG5NoLLPEe-Ik6wV8sPyRQ" name="GenerateNotification" incoming="_NwA2sLLPEe-Ik6wV8sPyRQ" outgoing="_R3wIILLPEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_PfIq8LLPEe-Ik6wV8sPyRQ" name="MergeToEnd" incoming="_R3wIILLPEe-Ik6wV8sPyRQ _SlqXALLPEe-Ik6wV8sPyRQ" outgoing="_XW2OELLPEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_WWlD4LLPEe-Ik6wV8sPyRQ" name="ActivityFinalNode16" incoming="_XW2OELLPEe-Ik6wV8sPyRQ" inPartition="_MsOT4LLOEe-Ik6wV8sPyRQ"/>
+  </packagedElement>
+</uml:Model>

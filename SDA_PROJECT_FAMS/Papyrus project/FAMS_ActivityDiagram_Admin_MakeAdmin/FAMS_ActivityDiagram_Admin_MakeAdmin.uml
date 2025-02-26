@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_NaKGALLQEe-Ik6wV8sPyRQ" name="FAMS_ActivityDiagram_Admin_MakeAdmin">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Na2CgLLQEe-Ik6wV8sPyRQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_NaQzsLLQEe-Ik6wV8sPyRQ" name="FAMS_ActivityDiagram_Admin_MakeAdmin" node="_Pq4LcLLQEe-Ik6wV8sPyRQ _QmOZYLLQEe-Ik6wV8sPyRQ _hUftgLLQEe-Ik6wV8sPyRQ _pu5G8LLQEe-Ik6wV8sPyRQ _s4ptMLLQEe-Ik6wV8sPyRQ _1_Ma8LLQEe-Ik6wV8sPyRQ _59cZMLLQEe-Ik6wV8sPyRQ" group="_OlqP0LLQEe-Ik6wV8sPyRQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_w_JBcLLQEe-Ik6wV8sPyRQ" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ" target="_QmOZYLLQEe-Ik6wV8sPyRQ" source="_Pq4LcLLQEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xeG1YLLQEe-Ik6wV8sPyRQ" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ" target="_hUftgLLQEe-Ik6wV8sPyRQ" source="_QmOZYLLQEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_x95vwLLQEe-Ik6wV8sPyRQ" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ" target="_pu5G8LLQEe-Ik6wV8sPyRQ" source="_hUftgLLQEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ykCisLLQEe-Ik6wV8sPyRQ" name="[ if confirm == true]" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ" target="_s4ptMLLQEe-Ik6wV8sPyRQ" source="_pu5G8LLQEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8GnFILLQEe-Ik6wV8sPyRQ" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ" target="_59cZMLLQEe-Ik6wV8sPyRQ" source="_s4ptMLLQEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9nMHELLQEe-Ik6wV8sPyRQ" name="[else]" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ" target="_59cZMLLQEe-Ik6wV8sPyRQ" source="_pu5G8LLQEe-Ik6wV8sPyRQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ARBQELLREe-Ik6wV8sPyRQ" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ" target="_1_Ma8LLQEe-Ik6wV8sPyRQ" source="_59cZMLLQEe-Ik6wV8sPyRQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_OlqP0LLQEe-Ik6wV8sPyRQ" name="Admin" node="_Pq4LcLLQEe-Ik6wV8sPyRQ _QmOZYLLQEe-Ik6wV8sPyRQ _hUftgLLQEe-Ik6wV8sPyRQ _pu5G8LLQEe-Ik6wV8sPyRQ _s4ptMLLQEe-Ik6wV8sPyRQ _1_Ma8LLQEe-Ik6wV8sPyRQ _59cZMLLQEe-Ik6wV8sPyRQ" edge="_w_JBcLLQEe-Ik6wV8sPyRQ _xeG1YLLQEe-Ik6wV8sPyRQ _x95vwLLQEe-Ik6wV8sPyRQ _ykCisLLQEe-Ik6wV8sPyRQ _8GnFILLQEe-Ik6wV8sPyRQ _9nMHELLQEe-Ik6wV8sPyRQ _ARBQELLREe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_Pq4LcLLQEe-Ik6wV8sPyRQ" name="Start" outgoing="_w_JBcLLQEe-Ik6wV8sPyRQ" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QmOZYLLQEe-Ik6wV8sPyRQ" name="Change Role of the User" incoming="_w_JBcLLQEe-Ik6wV8sPyRQ" outgoing="_xeG1YLLQEe-Ik6wV8sPyRQ" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_hUftgLLQEe-Ik6wV8sPyRQ" name="Confirmation message" incoming="_xeG1YLLQEe-Ik6wV8sPyRQ" outgoing="_x95vwLLQEe-Ik6wV8sPyRQ" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_pu5G8LLQEe-Ik6wV8sPyRQ" name="Are You Sure?" incoming="_x95vwLLQEe-Ik6wV8sPyRQ" outgoing="_ykCisLLQEe-Ik6wV8sPyRQ _9nMHELLQEe-Ik6wV8sPyRQ" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_s4ptMLLQEe-Ik6wV8sPyRQ" name="Commit Changes in DB" incoming="_ykCisLLQEe-Ik6wV8sPyRQ" outgoing="_8GnFILLQEe-Ik6wV8sPyRQ" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_1_Ma8LLQEe-Ik6wV8sPyRQ" name="Final" incoming="_ARBQELLREe-Ik6wV8sPyRQ" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_59cZMLLQEe-Ik6wV8sPyRQ" name="Merge to final" incoming="_8GnFILLQEe-Ik6wV8sPyRQ _9nMHELLQEe-Ik6wV8sPyRQ" outgoing="_ARBQELLREe-Ik6wV8sPyRQ" inPartition="_OlqP0LLQEe-Ik6wV8sPyRQ"/>
+  </packagedElement>
+</uml:Model>

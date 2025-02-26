@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_AijmoLK-Ee-xa9ectZ5pQA" name="FAMS_ActivityDiagram_Posting">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_AjRYULK-Ee-xa9ectZ5pQA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_AiricLK-Ee-xa9ectZ5pQA" name="Posting" node="_DlMRMLK-Ee-xa9ectZ5pQA _GRrsoLK-Ee-xa9ectZ5pQA _Jb0GULK-Ee-xa9ectZ5pQA _U9CGwLK-Ee-xa9ectZ5pQA _W0szALK-Ee-xa9ectZ5pQA _e59p8LK-Ee-xa9ectZ5pQA _ivJLwLK-Ee-xa9ectZ5pQA _mFPk4LK-Ee-xa9ectZ5pQA _pLYPYLK-Ee-xa9ectZ5pQA _trp8oLK-Ee-xa9ectZ5pQA _ZVQ10LK_Ee-xa9ectZ5pQA _jbsULrK_Ee-xa9ectZ5pQA _oJzBILK_Ee-xa9ectZ5pQA _AK8tALLAEe-xa9ectZ5pQA" group="_CVbScLK-Ee-xa9ectZ5pQA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_L_0UILK-Ee-xa9ectZ5pQA" name="Choice" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_GRrsoLK-Ee-xa9ectZ5pQA" source="_DlMRMLK-Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NiWd4LK-Ee-xa9ectZ5pQA" name="[If Creation == True ]" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_Jb0GULK-Ee-xa9ectZ5pQA" source="_GRrsoLK-Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1DrTELK-Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_U9CGwLK-Ee-xa9ectZ5pQA" source="_Jb0GULK-Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_22THQLK-Ee-xa9ectZ5pQA" name="Check for details" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_W0szALK-Ee-xa9ectZ5pQA" source="_U9CGwLK-Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7ILMILK-Ee-xa9ectZ5pQA" name="[if details == valid]" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_e59p8LK-Ee-xa9ectZ5pQA" source="_W0szALK-Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BXWEILK_Ee-xa9ectZ5pQA" name="[Else] Invalid Details, pleases Try Again" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_Jb0GULK-Ee-xa9ectZ5pQA" source="_W0szALK-Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KvqeYLK_Ee-xa9ectZ5pQA" name="Check for Status" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_ivJLwLK-Ee-xa9ectZ5pQA" source="_e59p8LK-Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OhOrgLK_Ee-xa9ectZ5pQA" name="[else If posting == fail]" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_trp8oLK-Ee-xa9ectZ5pQA" source="_ivJLwLK-Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SddQgLK_Ee-xa9ectZ5pQA" name="[if posting == pass]" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_mFPk4LK-Ee-xa9ectZ5pQA" source="_ivJLwLK-Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XsPpkLK_Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_pLYPYLK-Ee-xa9ectZ5pQA" source="_mFPk4LK-Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sQzSwLK_Ee-xa9ectZ5pQA" name="[else if Deletion == TRUE]" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_ZVQ10LK_Ee-xa9ectZ5pQA" source="_GRrsoLK-Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_whZlQLK_Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_jbsULrK_Ee-xa9ectZ5pQA" source="_ZVQ10LK_Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yjdjoLK_Ee-xa9ectZ5pQA" name="[If PostedByID == UserID]" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_oJzBILK_Ee-xa9ectZ5pQA" source="_jbsULrK_Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CwTlsLLAEe-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_AK8tALLAEe-xa9ectZ5pQA" source="_oJzBILK_Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Dls8oLLAEe-xa9ectZ5pQA" name="else" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_AK8tALLAEe-xa9ectZ5pQA" source="_jbsULrK_Ee-xa9ectZ5pQA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GEwZALLAEe-xa9ectZ5pQA" name="Final" inPartition="_CVbScLK-Ee-xa9ectZ5pQA" target="_pLYPYLK-Ee-xa9ectZ5pQA" source="_AK8tALLAEe-xa9ectZ5pQA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_CVbScLK-Ee-xa9ectZ5pQA" name="User" node="_DlMRMLK-Ee-xa9ectZ5pQA _GRrsoLK-Ee-xa9ectZ5pQA _Jb0GULK-Ee-xa9ectZ5pQA _U9CGwLK-Ee-xa9ectZ5pQA _W0szALK-Ee-xa9ectZ5pQA _e59p8LK-Ee-xa9ectZ5pQA _ivJLwLK-Ee-xa9ectZ5pQA _mFPk4LK-Ee-xa9ectZ5pQA _pLYPYLK-Ee-xa9ectZ5pQA _trp8oLK-Ee-xa9ectZ5pQA _ZVQ10LK_Ee-xa9ectZ5pQA _jbsULrK_Ee-xa9ectZ5pQA _oJzBILK_Ee-xa9ectZ5pQA _AK8tALLAEe-xa9ectZ5pQA" edge="_L_0UILK-Ee-xa9ectZ5pQA _NiWd4LK-Ee-xa9ectZ5pQA _1DrTELK-Ee-xa9ectZ5pQA _22THQLK-Ee-xa9ectZ5pQA _7ILMILK-Ee-xa9ectZ5pQA _BXWEILK_Ee-xa9ectZ5pQA _KvqeYLK_Ee-xa9ectZ5pQA _OhOrgLK_Ee-xa9ectZ5pQA _SddQgLK_Ee-xa9ectZ5pQA _XsPpkLK_Ee-xa9ectZ5pQA _sQzSwLK_Ee-xa9ectZ5pQA _whZlQLK_Ee-xa9ectZ5pQA _yjdjoLK_Ee-xa9ectZ5pQA _CwTlsLLAEe-xa9ectZ5pQA _Dls8oLLAEe-xa9ectZ5pQA _GEwZALLAEe-xa9ectZ5pQA"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_DlMRMLK-Ee-xa9ectZ5pQA" name="Start" outgoing="_L_0UILK-Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_GRrsoLK-Ee-xa9ectZ5pQA" name="PostCreation/Deletion?" incoming="_L_0UILK-Ee-xa9ectZ5pQA" outgoing="_NiWd4LK-Ee-xa9ectZ5pQA _sQzSwLK_Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Jb0GULK-Ee-xa9ectZ5pQA" name="EnterTheDetails" incoming="_NiWd4LK-Ee-xa9ectZ5pQA _BXWEILK_Ee-xa9ectZ5pQA" outgoing="_1DrTELK-Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9CGwLK-Ee-xa9ectZ5pQA" name="ValidateDetails" incoming="_1DrTELK-Ee-xa9ectZ5pQA" outgoing="_22THQLK-Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_W0szALK-Ee-xa9ectZ5pQA" name="DetailValid?" incoming="_22THQLK-Ee-xa9ectZ5pQA" outgoing="_7ILMILK-Ee-xa9ectZ5pQA _BXWEILK_Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_e59p8LK-Ee-xa9ectZ5pQA" name="InteractWithDatabaseToStorePost" incoming="_7ILMILK-Ee-xa9ectZ5pQA" outgoing="_KvqeYLK_Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_ivJLwLK-Ee-xa9ectZ5pQA" name="Posting Status" incoming="_KvqeYLK_Ee-xa9ectZ5pQA" outgoing="_OhOrgLK_Ee-xa9ectZ5pQA _SddQgLK_Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_mFPk4LK-Ee-xa9ectZ5pQA" name="Display successful posting " incoming="_SddQgLK_Ee-xa9ectZ5pQA" outgoing="_XsPpkLK_Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_pLYPYLK-Ee-xa9ectZ5pQA" name="Final" incoming="_XsPpkLK_Ee-xa9ectZ5pQA _GEwZALLAEe-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_trp8oLK-Ee-xa9ectZ5pQA" name="DisplayErrorServerProblem" incoming="_OhOrgLK_Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZVQ10LK_Ee-xa9ectZ5pQA" name="Check for UserID and PostedByID from DB" incoming="_sQzSwLK_Ee-xa9ectZ5pQA" outgoing="_whZlQLK_Ee-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_jbsULrK_Ee-xa9ectZ5pQA" name="UserID=PostedByID ?" incoming="_whZlQLK_Ee-xa9ectZ5pQA" outgoing="_yjdjoLK_Ee-xa9ectZ5pQA _Dls8oLLAEe-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_oJzBILK_Ee-xa9ectZ5pQA" name="DeletePost" incoming="_yjdjoLK_Ee-xa9ectZ5pQA" outgoing="_CwTlsLLAEe-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_AK8tALLAEe-xa9ectZ5pQA" name="MergeToFinal" incoming="_CwTlsLLAEe-xa9ectZ5pQA _Dls8oLLAEe-xa9ectZ5pQA" outgoing="_GEwZALLAEe-xa9ectZ5pQA" inPartition="_CVbScLK-Ee-xa9ectZ5pQA"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0UKHkLLzEe-q37VQqI4BWg" name="FAMS_DeploymentDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0VNQcLLzEe-q37VQqI4BWg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Device" xmi:id="_60Y6YLLzEe-q37VQqI4BWg" name="UserDevice">
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_eI9l0LL1Ee-KMIq3qDg-WQ" name="User Workstation"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_SMAhELL0Ee-KMIq3qDg-WQ" name="Web Server"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_V2--ALL0Ee-KMIq3qDg-WQ" name="Application Server"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_Zf_FALL0Ee-KMIq3qDg-WQ" name="Database Server"/>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_Jwyy0LL1Ee-KMIq3qDg-WQ" name="implement" memberEnd="_Jw6HkLL1Ee-KMIq3qDg-WQ _Jw_nILL1Ee-KMIq3qDg-WQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Jw3rULL1Ee-KMIq3qDg-WQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Jw4SYLL1Ee-KMIq3qDg-WQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Jw6HkLL1Ee-KMIq3qDg-WQ" name="web server" type="_SMAhELL0Ee-KMIq3qDg-WQ" association="_Jwyy0LL1Ee-KMIq3qDg-WQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Jw_nILL1Ee-KMIq3qDg-WQ" name="userdevice" type="_60Y6YLLzEe-q37VQqI4BWg" association="_Jwyy0LL1Ee-KMIq3qDg-WQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_O3iDILL1Ee-KMIq3qDg-WQ" memberEnd="_O3m7obL1Ee-KMIq3qDg-WQ _O3ow0LL1Ee-KMIq3qDg-WQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O3mUkLL1Ee-KMIq3qDg-WQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O3m7oLL1Ee-KMIq3qDg-WQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_O3m7obL1Ee-KMIq3qDg-WQ" name="application server" type="_V2--ALL0Ee-KMIq3qDg-WQ" association="_O3iDILL1Ee-KMIq3qDg-WQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_O3ow0LL1Ee-KMIq3qDg-WQ" name="web server" type="_SMAhELL0Ee-KMIq3qDg-WQ" association="_O3iDILL1Ee-KMIq3qDg-WQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_RMB1ULL1Ee-KMIq3qDg-WQ" memberEnd="_RMDqgLL1Ee-KMIq3qDg-WQ _RMERkLL1Ee-KMIq3qDg-WQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RMDDcLL1Ee-KMIq3qDg-WQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RMDDcbL1Ee-KMIq3qDg-WQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RMDqgLL1Ee-KMIq3qDg-WQ" name="database server" type="_Zf_FALL0Ee-KMIq3qDg-WQ" association="_RMB1ULL1Ee-KMIq3qDg-WQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RMERkLL1Ee-KMIq3qDg-WQ" name="application server" type="_V2--ALL0Ee-KMIq3qDg-WQ" association="_RMB1ULL1Ee-KMIq3qDg-WQ"/>
+  </packagedElement>
+</uml:Model>

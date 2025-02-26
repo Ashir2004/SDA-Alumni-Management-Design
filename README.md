@@ -28,32 +28,32 @@ This repository contains the **complete design and analysis** of an Alumni Manag
 
 ##  Folder Structure  
 
--📂 SDA_PROJECT_FAMS/
--├── 📁 Diagrams/ # Contains all UML diagrams
--│ ├── 📁 User Case Diagram
--│ ├── ├── Use_Case_Diagram_Admin.png
--│ ├── ├── Use_Case_Diagram_User.png
--│ ├── 📁 Class Diagram
--│ ├── ├── FAMS_CLass_Diagram.png
--│ ├── 📁 Activity Diagrams
--│ ├── ├── FAMS_ActivityDiagram_Admin_deleteUser.png
--│ ├── ├── FAMS_ActivityDiagram_MakeAdmin.png
--│ ├── ├── FAMS_ActivityDiagram_Admin_Donation.png
--│ ├── ├── FAMS_ActivityDiagram_Admin_Events.png
--│ ├── ├── FAMS_ActivityDiagram_Admin_Login-Signup.png
--│ ├── ├── FAMS_ActivityDiagram_Admin_ManagingAccount.png
--│ ├── ├── FAMS_ActivityDiagram_Admin_Posting.png
--│ ├── 📁 Component Diagram
--│ ├── ├── FAMS_ComponentDiagram.png
--│ ├── 📁 Deployment Diagram
--│ ├── ├── FAMS_DeploymentDiagram.png
--├── 📁 Papyrus project/ # Contains editable UML files (Papyrus)
--│ ├── *.di # Diagram Interchange file
--│ ├── *.notation # Notation model file
--│ ├── *.uml # UML model file
--│ ├── .project # Papyrus project file
--│ ├── .settings/ # Papyrus project settings
--├── 📁 Documents/ # Contains reports and documentation
--│ ├── Project Proposal.pdf
--│ ├── Project SDS SRS report
-├── 📁 .metadata/ # Contains protocols for Papyrus project
+📂 SDA_PROJECT_FAMS/<br>
+├── 📁 Diagrams/ # Contains all UML diagrams<br>
+│ ├── 📁 User Case Diagram<br>
+│ ├── ├── Use_Case_Diagram_Admin.png<br>
+│ ├── ├── Use_Case_Diagram_User.png<br>
+│ ├── 📁 Class Diagram<br>
+│ ├── ├── FAMS_CLass_Diagram.png<br>
+│ ├── 📁 Activity Diagrams<br>
+│ ├── ├── FAMS_ActivityDiagram_Admin_deleteUser.png<br>
+│ ├── ├── FAMS_ActivityDiagram_MakeAdmin.png<br>
+│ ├── ├── FAMS_ActivityDiagram_Admin_Donation.png<br>
+│ ├── ├── FAMS_ActivityDiagram_Admin_Events.png<br>
+│ ├── ├── FAMS_ActivityDiagram_Admin_Login-Signup.png<br>
+│ ├── ├── FAMS_ActivityDiagram_Admin_ManagingAccount.png<br>
+│ ├── ├── FAMS_ActivityDiagram_Admin_Posting.png<br>
+│ ├── 📁 Component Diagram<br>
+│ ├── ├── FAMS_ComponentDiagram.png<br>
+│ ├── 📁 Deployment Diagram<br>
+│ ├── ├── FAMS_DeploymentDiagram.png<br>
+├── 📁 Papyrus project/ # Contains editable UML files (Papyrus)<br>
+│ ├── *.di # Diagram Interchange file<br>
+│ ├── *.notation # Notation model file<br>
+│ ├── *.uml # UML model file<br>
+│ ├── .project # Papyrus project file<br>
+│ ├── .settings/ # Papyrus project settings<br>
+├── 📁 Documents/ # Contains reports and documentation<br>
+│ ├── Project Proposal.pdf<br>
+│ ├── Project SDS SRS report<br>
+├── 📁 .metadata/ # Contains protocols for Papyrus project<br>
